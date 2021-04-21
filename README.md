@@ -8,17 +8,22 @@
  
  and then run project in activity folder with command
  
- #node main.js <operation-name> <dir-path>
+ # node main.js <operation-name> <dir-path>
 
-FAQs
+# FAQs
 
 Q. What is the work of this project?
+
+
 Ans. This is a automated pdf manipulator and converter which merges at least 2 and at most 5 pdfs in one go.
     Instead of merging we can also do several other operations like compress pdf, convert pdf to doc file or ppt file or jpg file or excel file.
     With the help of this project we can also convert doc file or ppt file or jpg file or excel file to pdf.
     
 Q. How does this project works?
+
 Ans. The work is done with the help of automation. As a input we had to provide operation name and folder's path which contains files to be operated.
+
+
     -> Merge PDF
       If you are doing merge operation then there should be at least 2 pdfs and at most 5 pdfs available in the provided folder.
       Otherwise it will terminate the script and returns a statement which makes us understood that what fault is occured.
