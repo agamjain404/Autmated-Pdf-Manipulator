@@ -1,4 +1,4 @@
-// Read readme.md to understand the activity and to know how it will be executed
+// Read facts.md to understand the activity and to know how it will be executed
 
 const input = process.argv.slice(2);
 const helperfile = require("./commands/Help/help.js");
