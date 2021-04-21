@@ -4,7 +4,7 @@ const path = require("path");
 const getFilesPathMerge = require("./GetPaths/getPathsMerge.js");
 const getFilesPathCompress = require("./GetPaths/getPathsCompress.js");
 const getFilesPathPdfToAny = require("./GetPaths/getPathspdftoany.js");
-const checExtensionFile = require("./CheckExtensions/checkExtensions.js")
+const checExtensionFile = require("./CheckExtensions/checkExtensions.js");
 
 // Variable which will have all tab information
 let cTab;
