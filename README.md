@@ -8,7 +8,7 @@
  
  and then run project in activity folder with command
  
- # node main.js <operation-name> <dir-path>
+ # node main.js "operation-name" "dir-path"
 
 # FAQs
 
