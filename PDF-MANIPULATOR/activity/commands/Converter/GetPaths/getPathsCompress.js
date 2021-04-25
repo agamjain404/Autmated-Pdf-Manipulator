@@ -26,8 +26,8 @@ function getFilesPathfn(dirName){
         // Reading content of folder
         let filesInFolder = readContent(dirName);
 
-        if(filesInFolder.length > 5){
-            return "You can operate atmost 5 files only at a time. Please reduce the number of files in folder";
+        if(filesInFolder.length > 3){
+            return "You can operate atmost 3 files only at a time. Please reduce the number of files in folder";
         }else if(filesInFolder.length == 0){
             return "You have no files in your folder. Please add some files";
         }

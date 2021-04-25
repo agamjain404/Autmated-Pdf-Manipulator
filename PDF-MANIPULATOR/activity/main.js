@@ -17,8 +17,8 @@ switch(command){
 
     case "compress":
         // To compress two or more pdf
-        // At a time at most 5 pdfs will be compressed
-        // So input folder should have atmost 5 pdfs and at least 1 pdf
+        // At a time at most 3 pdfs will be compressed
+        // So input folder should have atmost 3 pdfs and at least 1 pdf
         converterFile.fn(input[0],input[1], 2);
         break;
 
@@ -66,15 +66,15 @@ switch(command){
     
     case "pdftojpg":
         // To convert a pdf into jpg file
-        // At a time at most 5 pdfs will be converted
-        // So input folder should have atmost 5 pdfs and at least 1 pdf
+        // At a time at most 3 pdfs will be converted
+        // So input folder should have atmost 3 pdfs and at least 1 pdf
         converterFile.fn(input[0],input[1], 10);
         break;
 
     case "jpgtopdf":
         // To convert a jpg into pdf file
-        // At a time at most 5 jpgs will be converted
-        // So input folder should have atmost 5 jpg and at least 1 jpg
+        // At a time at most 3 jpgs will be converted
+        // So input folder should have atmost 3 jpg and at least 1 jpg
         converterFile.fn(input[0],input[1], 11);
         break;
 
