@@ -30,7 +30,7 @@ Ans. The work is done with the help of automation. As a input we had to provide 
       If all goes okay, then it will download the merged pdf in your downloads folder
       
     -> Compress PDF
-      If you are doing compress operation then there should be at least 1 pdf and at most 5 pdfs available in the provided folder.
+      If you are doing compress operation then there should be at least 1 pdf and at most 3 pdfs available in the provided folder.
       If there is only 1 pdf then script will download the compressed pdf and if there are more then 1 pdf present then it will  download a 
       zip file containing all the compressed pdfs.
       
@@ -44,10 +44,10 @@ Ans. The work is done with the help of automation. As a input we had to provide 
       There must be atleast one pdf file and atmost one pdf file present in the provided folder to make it work properly.
       
     -> PDF to JPG
-      In this operation folder must contain at least one pdf and at most 5 pdf to make it work properly.
+      In this operation folder must contain at least one pdf and at most 3 pdf to make it work properly.
       
     -> JPG to PDF
-      In this operation folder must contain at least one jpg or jpeg file and at most five jpg or jpeg files to make it work properly.
+      In this operation folder must contain at least one jpg or jpeg file and at most 3 jpg or jpeg files to make it work properly.
       
     -> WORD to PDF
       There must be atleast one doc or docx file and atmost one doc or docx file present in the provided folder to make it work properly.
